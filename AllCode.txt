@@ -213,7 +213,7 @@ class Calculation:
         print(f"{self.lst_S=}")
 
         self.lst_S_gost = [
-            myround(self.lst_S[i], [16, 25, 35, 50, 70, 95, 120])
+            myround(self.lst_S[i], [35, 50, 70, 95, 120])
             for i in range(len(self.lst_S))
         ]
         print(f"{self.lst_S_gost=}")
